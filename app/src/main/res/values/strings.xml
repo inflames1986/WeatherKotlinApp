@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Weather Kotlin App</string>
+    <string name="project_name">Kotlin Weather APP</string>
+    <string name="Show_action">Show</string>
 </resources>
