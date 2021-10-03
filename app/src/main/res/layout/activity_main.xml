@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="bottom"
-        android:layout_margin="32dp"
+        android:layout_margin="@dimen/default_first_margin"
         android:textSize="35sp"
         android:text="@string/project_name" />
 
@@ -19,7 +19,14 @@
         android:id="@+id/first_action_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="35dp"
+        android:layout_margin="@dimen/default_first_margin"
         android:text="@string/Show_action"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_first_margin"
+        tools:text="Result of manipulations" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
