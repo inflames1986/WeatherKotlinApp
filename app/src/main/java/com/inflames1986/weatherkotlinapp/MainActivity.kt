@@ -20,6 +20,9 @@ class MainActivity : AppCompatActivity() {
     var copy1 = NameCopy
     var copyname = copy1.secondname
 
+    var cycles = ForCyclesClass()
+    var res = cycles.whenTesting("ccc").toString()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -33,6 +36,9 @@ class MainActivity : AppCompatActivity() {
 
         edittext = findViewById(R.id.edittext)
         edittext.setText(copyname)
+
+        edittext = findViewById(R.id.edittext1)
+        edittext.setText(res)
     }
 
     companion object {
