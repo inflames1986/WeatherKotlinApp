@@ -29,6 +29,8 @@ class MainActivity : AppCompatActivity() {
 
         Toast.makeText(this, "Weather App Started", Toast.LENGTH_SHORT).show()
 
+        WeatherType.CLOUDY
+
         button = findViewById(R.id.first_action_btn)
         button.setOnClickListener {
             Toast.makeText(this, "Hello, I'm Working", Toast.LENGTH_SHORT).show()

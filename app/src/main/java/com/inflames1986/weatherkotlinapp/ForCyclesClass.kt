@@ -25,4 +25,5 @@ class ForCyclesClass {
         }
         return arifmRes
     }
+
 }
